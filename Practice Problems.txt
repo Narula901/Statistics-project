@@ -1,0 +1,85 @@
+Ques-1 
+Three students scheduled interviews for summer employment at the Brookwood Institute.
+In each case the interview results in either an offer for a position or no offer. Experimental outcomes are defined in terms of the results of the three interviews.
+a. List the experimental outcomes.
+b. Define a random variable that represents the number of offers made. Is the random
+variable continuous?
+c. Show the value of the random variable for each of the experimental outcomes.
+
+
+a. Experimental Outcomes:
+The experimental outcomes are the different possible results of the three interviews, specifically whether each interview results in an offer or no offer. There are 2^3 = 8 possible outcomes because each interview can have 2 possible results (offer or no offer), and there are 3 interviews.
+
+The experimental outcomes can be listed as follows:
+
+(Offer, Offer, Offer)
+(Offer, Offer, No Offer)
+(Offer, No Offer, Offer)
+(No Offer, Offer, Offer)
+(Offer, No Offer, No Offer)
+(No Offer, Offer, No Offer)
+(No Offer, No Offer, Offer)
+(No Offer, No Offer, No Offer)
+b. Random Variable:
+We can define a random variable X as the "number of offers made" based on the outcomes. X can take on the values 0, 1, 2, or 3, depending on how many offers are made during the three interviews.
+
+c. Values of the Random Variable:
+To show the value of the random variable for each of the experimental outcomes, we can assign a value to X for each outcome:
+
+(Offer, Offer, Offer) - X = 3 (Three offers made)
+(Offer, Offer, No Offer) - X = 2 (Two offers made)
+(Offer, No Offer, Offer) - X = 2 (Two offers made)
+(No Offer, Offer, Offer) - X = 2 (Two offers made)
+(Offer, No Offer, No Offer) - X = 1 (One offer made)
+(No Offer, Offer, No Offer) - X = 1 (One offer made)
+(No Offer, No Offer, Offer) - X = 1 (One offer made)
+(No Offer, No Offer, No Offer) - X = 0 (No offers made)
+So, the random variable X represents the number of offers made, and it can take on discrete values in this case (0, 1, 2, or 3) since it's based on the count of offers made, which is a discrete variable.
+
+Ques-2 
+To perform a certain type of blood analysis, lab technicians must perform two procedures.
+The first procedure requires either one or two separate steps, and the second procedure
+requires either one, two, or three steps.
+a. List the experimental outcomes associated with performing the blood analysis.
+b. If the random variable of interest is the total number of steps required to do the complete analysis (both procedures), show what value the random variable will assume for
+each of the experimental outcomes.
+
+a. Experimental Outcomes:
+To list the experimental outcomes associated with performing the blood analysis, you need to consider all possible combinations of steps for the first and second procedures. Let's break down the possibilities:
+
+For the first procedure, there are two possible scenarios:
+
+One step is required.
+Two steps are required.
+For the second procedure, there are three possible scenarios:
+
+One step is required.
+Two steps are required.
+Three steps are required.
+Now, we'll list all the possible combinations of these scenarios for the two procedures:
+
+(1 step for Procedure 1, 1 step for Procedure 2)
+(1 step for Procedure 1, 2 steps for Procedure 2)
+(1 step for Procedure 1, 3 steps for Procedure 2)
+(2 steps for Procedure 1, 1 step for Procedure 2)
+(2 steps for Procedure 1, 2 steps for Procedure 2)
+(2 steps for Procedure 1, 3 steps for Procedure 2)
+There are six experimental outcomes in total.
+
+b. Random Variable - Total Number of Steps:
+The random variable of interest is the "total number of steps required to do the complete analysis" (both procedures). To calculate the value of this random variable for each of the experimental outcomes, you simply add the number of steps required for each procedure in that outcome.
+
+Let's calculate the values of the random variable for each of the experimental outcomes:
+
+(1 step for Procedure 1, 1 step for Procedure 2) - Total Steps = 1 + 1 = 2
+(1 step for Procedure 1, 2 steps for Procedure 2) - Total Steps = 1 + 2 = 3
+(1 step for Procedure 1, 3 steps for Procedure 2) - Total Steps = 1 + 3 = 4
+(2 steps for Procedure 1, 1 step for Procedure 2) - Total Steps = 2 + 1 = 3
+(2 steps for Procedure 1, 2 steps for Procedure 2) - Total Steps = 2 + 2 = 4
+(2 steps for Procedure 1, 3 steps for Procedure 2) - Total Steps = 2 + 3 = 5
+So, the random variable representing the total number of steps for the complete blood analysis can assume values of 2, 3, 4, or 5, depending on the specific combination of steps required for the two procedures.
+
+
+
+
+
